@@ -1,0 +1,14 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "UdacityProject"
+	},
+        {
+		"ParameterKey": "S3ReadOnlyRoleName",
+		"ParameterValue": "UdacityS3ReadOnlyEC2"
+	},
+        {
+		"ParameterKey": "S3PathToDeveloperZipFile",
+		"ParameterValue": "s3://my-bucket-ag/udacity-starter-website.zip"
+	}
+]
