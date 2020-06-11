@@ -3,6 +3,7 @@
 ### Prerequisites before running the CloudFormation scripts
 1. The AWS user used for running the scripts must have permission to assign roles to resources, e.g. IAMFullAccess
 2. A role for granting EC2 instances read-only access to S3 buckets must be already present in the AWS account. Default name of the role is "UdacityS3ReadOnlyEC2" but can be changed by setting the parameter "S3ReadOnlyRoleName" in the file "server-parameter.json"
+Note: The role must have assigned the following managed security policy: AmazonS3ReadOnlyAccess
 3. The developer's ZIP file containing the web app is called "udacity-starter-website.zip". It must be uploaded to an S3 bucket of the AWS account. The full S3 path to the file is defined by setting the value of the parameter "S3PathToDeveloperZipFile" in the file "server-parameter.json"
 
 ### Running the scripts
