@@ -1,4 +1,5 @@
 ## Udacity High-Availability Website
+The repository contains the CloudFormation scripts and supporting files (shell scripts, network diagram) that were provided by Udacity or created by me for completing the project.
 
 ### Prerequisites before running the CloudFormation scripts
 1. The AWS user used for running the scripts must have permission to assign roles to resources, e.g. IAMFullAccess
